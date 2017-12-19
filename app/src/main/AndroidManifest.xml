@@ -36,15 +36,25 @@
         <activity
             android:name=".MapsActivitys"
             android:label="@string/title_activity_maps_activitys" />
-        <activity android:name=".CurrentLocationMap"></activity>
+        <activity android:name=".CurrentLocationMap" />
         <activity android:name=".ShowPath">
+
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AutoComplete">
+
+
+
+        </activity>
+        <activity android:name=".GoogleMapACT">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

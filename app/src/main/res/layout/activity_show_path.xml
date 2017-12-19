@@ -27,20 +27,7 @@
             android:background="#000"/>
 
 
-    <fragment
-        android:id="@+id/place_autocomplete2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
-        />
-
     </LinearLayout>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Show Path"
-        android:id="@+id/btn_showPath"
-        android:background="@color/colorPrimaryDark"/>
 
     <fragment
         android:id="@+id/map"
